@@ -1,0 +1,47 @@
+.image-container {
+  margin-left:100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-wrapper {
+    margin-top:10px;
+    width: calc(100% / 5); /* Adjust the width based on your preference */
+    margin-right: 10px; /* Add spacing between images */
+     /* Add spacing between rows */
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+  }
+  
+  .Searchbar_container{
+    display:flex;
+   margin-right:60px;
+   margin-left: 60px;
+   margin-top:60px;
+  }
+.searchbar{
+    margin-right:10px;
+    marign-left:10px;
+    width:100%;
+    padding:14px;
+    border-radius:4px;
+    background-color:white;
+    border-color:#f0f0f0;
+    outline : none;
+    font-size: 19px;
+    font-family: "Verdana", Times, serif;
+  }
+  .submit{
+    padding:12px;
+    border-radius:4px;
+    background-color: #bccad6;
+    color:black;
+    border-color:#f0f0f0;
+    font-size: 19px;
+    font-family: "Verdana", Times, serif;
+
+  }
+
+  
